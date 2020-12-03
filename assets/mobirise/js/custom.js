@@ -11,7 +11,7 @@ $(function () {
 
 	setTimeout(function () {
 		$('.loader_bg').fadeToggle();
-	}, 3500);
+	}, 6000);
 
 	/* JQuery Menu
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
