@@ -26,35 +26,12 @@
    <body class="main-layout">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="assets/images/dd.gif" alt="#" /></div>
+         <div class="loader"><img src="assets/images/tdt.gif" alt="#" /></div>
       </div>
       <!-- end loader --> 
 
  
-  <SCRIPT LANGUAGE="JavaScript">
 
-function clickIE() {if (document.all) {alert(message);
-return false;
-}
-}
-function clickNS(e) {
-if (document.layers||(document.getElementById&&!document.all)) {
-if (e.which==2||e.which==3) {
-alert(message);
-return false;
-}
-}
-}
-if (document.layers) {
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS;
-}
-else{document.onmouseup=clickNS;
-document.oncontextmenu=clickIE;
-}
-document.oncontextmenu=new Function("return false")
-// --> 
-</script> 
   
 </head>
 <body>
@@ -145,10 +122,7 @@ document.oncontextmenu=new Function("return false")
 <div class="media-container-row align-center mbr-white">
 
 
-
-  
-
-      <script>
+ <script>
          $(document).ready(function(){
          $(".fancybox").fancybox({
          openEffect: "none",
@@ -165,6 +139,7 @@ document.oncontextmenu=new Function("return false")
          });
          
       </script> 
+
 
 
 </body>
