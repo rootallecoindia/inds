@@ -6,7 +6,7 @@ function preload(opacity) {
     }
     else {
         preloader.style.opacity = opacity;
-        window.setTimeout(function() { preload(opacity - 0.10) }, 200);
+        window.setTimeout(function() { preload(opacity - 0.200) }, 200);
     }
 }
 
@@ -17,5 +17,5 @@ function showContent() {
 
 document.addEventListener("DOMContentLoaded", function () {
     preloader = document.getElementById('preloader');
-    preload(1);
+    preload(2);
 });
