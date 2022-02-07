@@ -4440,7 +4440,7 @@ a {
   height: 100%;
   z-index: 999;
   overflow: visible;
-  background: url('https://rootallecoindia.com/New2022/assets/images/preloader.jpg') no-repeat center center;
+  background: #fff url('https://rootallecoindia.com/New2022/assets/images/preloader.jpg') no-repeat center center;
 }
 
 #content {
