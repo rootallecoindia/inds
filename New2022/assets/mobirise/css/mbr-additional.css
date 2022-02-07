@@ -4438,7 +4438,7 @@ a {
   position: fixed;
   width: 100%;
   height: 100%;
-  z-index: 999;
+  z-index: 99999;
   overflow: visible;
   background: #fff url('https://rootallecoindia.com/New2022/assets/images/rootall-173x188.png') no-repeat center center;
 }
