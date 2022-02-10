@@ -4461,3 +4461,7 @@ a {
   ::-webkit-scrollbar-thumb:hover {
   background-color: #00b140;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
