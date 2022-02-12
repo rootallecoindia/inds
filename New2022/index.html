@@ -118,9 +118,21 @@
 <section>
     <div id="wowslider-container1">
         <div class="ws_images"><ul>
-            <li><a href="Living_Area.html"><img src="data1/images/1.png" alt="" title="" id="wows1_0" ondragstart="return false;"/></a></li>
-            <li><a href="Kitchen.html"><img src="data1/images/2.png" alt="" title="" id="wows1_1" ondragstart="return false;"/></a></li>
-            <li><a href="Bathroom.html"><img src="data1/images/3.png" alt="" title="" id="wows1_2" ondragstart="return false;"/></a></li>
+            <li><a href="Living_Area.html">
+                <picture>
+                    <source srcset="data1/images/1.png" media="(min-width: 400px)"  id="wows1_0" ondragstart="return false;">
+                    <img srcset="data1/images/1m.png" >
+                  </picture></a></li>
+            <li><a href="Kitchen.html">
+                <picture>
+                    <source srcset="data1/images/2.png" media="(min-width: 400px)"  id="wows1_0" ondragstart="return false;">
+                    <img srcset="data1/images/2m.png" >
+                  </picture></a></li>
+            <li><a href="Bathroom.html">
+                <picture>
+                    <source srcset="data1/images/3.png" media="(min-width: 400px)"  id="wows1_0" ondragstart="return false;">
+                    <img srcset="data1/images/3m.png" >
+                  </picture></a></li>
         </ul></div>
     </section>
 
